@@ -20,14 +20,14 @@ str(fema)
 # = 52079.28
 
 #Check for missing values
-(sum(is.na(fema))) #64861 missing values
-fema<-na.omit(fema) # Just to make sure there aren't any missing values
-str(fema)# 921 obs. of  22 variables
+#(sum(is.na(fema))) #64861 missing values
+#fema<-na.omit(fema) # Just to make sure there aren't any missing values
+#str(fema)# 921 obs. of  22 variables
 
 #Check for duplicates
-duplicated(fema)# One duplicated record
-fema<-fema[!duplicated(fema),]# Removed duplicated record
-str(fema) #921 obs. of  22 variables
+#duplicated(fema)# One duplicated record
+#fema<-fema[!duplicated(fema),]# Removed duplicated record
+#str(fema) #921 obs. of  22 variables
 
 #Formatting data
 ## Dates
